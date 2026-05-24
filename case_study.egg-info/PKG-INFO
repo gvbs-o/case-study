@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: case-study
+Version: 1.0.0
+Summary: Estudo de caso - Produto de dados voltado a prevenção a fraudes (empresa: Getnet)
+Author: Gabriel
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit>=1.40
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy>=1.26
+Requires-Dist: duckdb>=1.1
+Requires-Dist: plotly>=5.20
+Requires-Dist: pyarrow>=14.0
+Requires-Dist: httpx>=0.27
+Requires-Dist: Pillow>=10.0
+Requires-Dist: flask>=3.1.3
+
+# Prev Analytics
+
+Estudo de caso - Produto de dados voltado a prevenção a fraudes (empresa: Getnet).
+
+Este repositório contém a estrutura do projeto e as dependências definidas no `pyproject.toml`.

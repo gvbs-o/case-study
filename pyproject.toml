@@ -1,0 +1,29 @@
+[project]
+name = "prev_analytics"
+version = "1.0.0"
+description = "Estudo de caso - Produto de dados voltado a prevenção a fraudes (empresa: Getnet)"
+authors = [
+    { name = "Gabriel" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "streamlit>=1.40",
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "duckdb>=1.1",
+    "plotly>=5.20",
+    "pyarrow>=14.0",
+    "httpx>=0.27",
+    "Pillow>=10.0",
+    "flask>=3.1.3"
+]
+
+[tool.setuptools]
+packages = { find = { where = ["."], include = ["prev_analytics*"], namespaces = true } }
+include-package-data = true
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

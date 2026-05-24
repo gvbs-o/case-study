@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+prev_analytics.egg-info/PKG-INFO
+prev_analytics.egg-info/SOURCES.txt
+prev_analytics.egg-info/dependency_links.txt
+prev_analytics.egg-info/requires.txt
+prev_analytics.egg-info/top_level.txt
+prev_analytics/frontend/app.py
